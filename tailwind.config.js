@@ -15,7 +15,7 @@ module.exports = {
     colors: {
       // bc: "#00005C",
       primary: "#fAF9F6",
-      secondary: "#a16e83",
+      secondary: "#af9c9d",
       lightGrey: "#C9D5EE",
       button: {
         DEFAULT: "#479760",
