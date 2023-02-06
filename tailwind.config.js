@@ -4,14 +4,14 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: 'class', // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     screens: {
       md: { max: "767px" },
     },
     colors: {
       primary: "#fAF9F6",
-      secondary: "#af9c9d",
+      secondary: "#b19e9c",
       button: {
         DEFAULT: "#479760",
         dark: "#277945",
