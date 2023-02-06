@@ -10,14 +10,17 @@ module.exports = {
       md: { max: "767px" },
     },
     // fontFamily: {
-    //   raleway: ["Poppins", "sans-serif"],
+    //   poppins: ["Poppins", "sans-serif"],
     // },
     colors: {
-      bc: "#00005C",
+      // bc: "#00005C",
       primary: "#fAF9F6",
       secondary: "#a16e83",
-      danger: "#1A67F8",
       lightGrey: "#C9D5EE",
+      button: {
+        DEFAULT: "#479760",
+        dark: "#277945",
+      },
     },
   },
   variants: {
