@@ -10,7 +10,7 @@ export default function Home() {
   // fetch movie info from IMDB API
   const fetchMovieInfo = async () => {
     try {
-      const res = await axios.get(`http://localhost:3000/api/movie`, {
+      const res = await axios.get(`/api/movie`, {
         params: { movieName },
       });
       const { data } = res;

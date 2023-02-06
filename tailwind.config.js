@@ -4,19 +4,14 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
-  // darkMode: 'class', // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     screens: {
       md: { max: "767px" },
     },
-    // fontFamily: {
-    //   poppins: ["Poppins", "sans-serif"],
-    // },
     colors: {
-      // bc: "#00005C",
       primary: "#fAF9F6",
       secondary: "#af9c9d",
-      lightGrey: "#C9D5EE",
       button: {
         DEFAULT: "#479760",
         dark: "#277945",
