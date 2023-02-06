@@ -39,7 +39,7 @@ export default function Home() {
             onChange={(e) => setMovieName(e.target.value)} // event handler to update state value as user types
           />
           <button
-            className="font-medium ml-4 px-12 py-2 rounded-lg bg-button text-primary transition duration-200 hover:bg-button-dark md:ml-0 md:mt-4"
+            className="font-medium ml-4 px-12 py-2 rounded-lg bg-button outline-none text-primary transition duration-200 hover:bg-button-dark md:ml-0 md:mt-4"
             onClick={fetchMovieInfo}
           >
             Search
