@@ -54,21 +54,25 @@ export default function Home() {
               alt={movieInfo.title}
             />
             <div className="flex flex-col justify-center ml-8 md:mt-6">
-              <h2 className="text-primary text-xl text-raleway font-bold tracking-wider md:text-base">
+              <h2 className="text-primary text-xl font-semibold tracking-wider md:text-base">
                 <span className="text-secondary uppercase">Title: </span>{" "}
                 {movieInfo.title}
               </h2>
-              <h2 className="text-primary text-xl text-raleway font-bold mt-8 tracking-wider md:text-base md:mt-6">
-                <span className="text-secondary uppercase">Year: </span>{" "}
+              <h2 className="text-primary text-xl font-semibold mt-8 tracking-wider md:text-base md:mt-6">
+                <span className="text-secondary uppercase">Release Year: </span>{" "}
                 {movieInfo.year}
               </h2>
-              <h2 className="text-primary text-xl text-raleway font-bold mt-8 tracking-wider md:text-base md:mt-6">
+              <h2 className="text-primary text-xl font-semibold mt-8 tracking-wider md:text-base md:mt-6">
                 <span className="text-secondary uppercase">Run Time: </span>{" "}
-                {movieInfo.runningTimeInMinutes}
+                {movieInfo.runningTimeInMinutes} minutes
               </h2>
-              <Link href={`https://www.imdb.com${movieInfo.id}`}>
-                <button className="outline-none border border-danger font-bold font-raleway mt-8 px-12 py-2 rounded-sm bg-danger text-primary transition duration-300 hover:bg-bc hover:text-black md:ml-0 md:my-4">
-                  Visit on IMDB
+              <Link
+                href={`https://www.imdb.com${movieInfo.id}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="outline-none font-medium mt-8 px-8 py-2 rounded-lg bg-button text-primary transition duration-200 hover:bg-button-dark md:ml-0 md:my-4">
+                  View on IMDB
                 </button>
               </Link>
             </div>
